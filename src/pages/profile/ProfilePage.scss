@@ -1,0 +1,28 @@
+.Vazaar-Profile-Section-Container{
+    margin: 0 auto;
+    background-color: white !important;
+    height: 90%;
+    width: 90%;
+    max-height: 1500px;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Vazaar-Profile-NonButtons-Container{
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    // max-height: 1500px;
+    // max-width: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+.Vazaar-Dashboard-Container{
+    width: 100%;
+    min-height: 700px;
+    height: 100vh;
+    background: #F3F7F9;
+    display: flex;
+}
+.Vazaar-left-navigation-container{
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    // display: inline-flex;
+    max-width:  353px;
+    min-width:  250px;
+    height: 100vh;
+    background-color: #ffffff;
+    filter: drop-shadow(5px 0px 4px rgba(0, 0, 0, 0.1));
+}
+.Vazaar-Dashboard-Icon{
+    display: block;
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Vazaar-Dashboard-Logo{
+    cursor: pointer;
+    text-align: center;
+}
+.Vazaar-Dashboard-List{
+    display: block;
+}
+.Vazaar-Top-Navigation-Container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #ffffff;
+    width: 100%;
+    // padding-left: 353px;
+    // padding-top: 23px;
+}
+.Vazaar-Top-Search{
+    width: 460px;
+    height: 38px;
+    padding-left: 38px;
+    border-radius: 2.5px;
+    
+    border: 1px rgba(126, 159, 182, 1)    solid;
+    margin-top: 23px;
+    margin-left: 38px;
+}

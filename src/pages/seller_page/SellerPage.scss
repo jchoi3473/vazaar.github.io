@@ -1,0 +1,34 @@
+.Vazaar-Sell-List{
+    display: flex;
+    text-align: left;
+    align-self: center;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    &:hover{
+        background: #589BFF;
+        color: #ffffff;
+    }
+    &:focus{
+        background: #589BFF;
+        color: #ffffff;
+    }
+}
+.Mui-selected{
+    background: #589BFF !important;
+}
+.Vazaar-List-White{
+    color: white !important;
+}
+.Vazaar-Seller-Section-Container{
+    min-width: 90%;
+    min-height: 600px;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}

@@ -1,0 +1,96 @@
+.Vazaar-Post-Container{
+    display: block;
+    width: 432px;
+    height: 432px;
+    background-color: white;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.Vazaar-Post-Image-Container{
+    width: 100%;
+    height: 290px;
+    background-color: gray;
+    &:hover{
+        
+    }
+}
+.Vazaar-Post-Detail-Title{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+.Vazaar-Post-Detail-Condition-Container{
+    display: flex;
+    margin-top: 3px;
+    padding-right: 130px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.Vazaar-Post-Detail-Condition-Body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #7E9FB6;
+}
+.Vazaar-Post-Detail-Price-Container{
+    display: flex;
+    padding-right: 300px;
+    padding-left: 20px;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.Vazaar-Post-Detail-Price-Body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    color: #223345;
+}
+.Dollar{
+    color: #2A783B !important;
+}
+.Vazaar-Post-View{
+    position: relative;
+    display: flex;
+    left: 325px;
+    bottom: 15px;
+    width: 96px;
+    height: 45px;
+    background: #589BFF;
+    border-radius: 2.5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Vazaar-Post-Heart-Container{
+    bottom: 294px;
+    height: 100%;
+}
+.Vazaar-Heart{
+    position: relative;
+    top: 22px;
+}
+
+.Vazaar-Heart-Circle{
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:  rgba(255, 255, 255, 0.75);;
+}

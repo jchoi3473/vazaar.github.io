@@ -1,0 +1,59 @@
+.Vazaar-FAQ-Container{
+    margin: 0 auto;
+    background-color: white !important;
+    height: 85%;
+    // min-height: 500px;
+    max-height: 1500px;
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    overflow-y: scroll;
+    text-align: left;
+    // min-width: 1200px;
+}
+.Vazaar-FAQ-LeftCol{
+    width: 20%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.Vazaar-FAQ-Name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.Vazaar-FAQ-Question{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EC5D5D;
+    text-align: left;
+    // padding: 10px;
+}
+
+.Vazaar-FAQ-Answer{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8BA9BD;
+    text-align: left;
+}
+.Vazaar-FAQ-Header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
